@@ -1,0 +1,7 @@
+1) ip domain-name (имя домена)
+2) crypto key generate rsa (генирация крипто ключа)
+3)username admin [ privilege 15 ] secret cisco
+4) line vty 0 15
+transport input ssh
+login local
+5) ip ssh version 2
